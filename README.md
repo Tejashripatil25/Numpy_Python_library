@@ -10,7 +10,7 @@ It enables the creation of arrays of a single dimension, two dimensions (like a 
 
 NumPy ndarray objects are n-dimensional arrays. On the surface, they appear to be quite similar to Python lists, but they work quite differently. Let’s work on creating our first array:
 
-# Creating your first array
+### Creating your first array
 
 import numpy as np
 
@@ -18,36 +18,36 @@ array = np.array([1,2,3,4,5])
 
 Let’s see what the data type of the array you created above is. You can do this using the .dtype attribute:
 
-# Checking the data type of an array
+### Checking the data type of an array
 
 print(array.dtype)
 
-# Returns: int64
+### Returns: int64
 
 ### Multi-Dimensional NumPy Arrays
 
 you can create a two-dimensional array by passing in a list of lists. Let’s take a look at a simple example:
 
-# Creating a two-dimensional array
+### Creating a two-dimensional array
 
 array = np.array([[1,2,3],[4,5,6]])
 
 print(array)
 
-# Returns:
+### Returns:
 
-# [[1 2 3]
-#  [4 5 6]]
+### [[1 2 3]
+###  [4 5 6]]
 
 We can check the dimensions of the array by using the .ndim attribute, which returns a single value of dimensions:
 
-# Checking the dimensions of an array
+### Checking the dimensions of an array
 
 array = np.array([[1,2,3],[4,5,6]])
 
 print(array.ndim)
 
-# Returns: 2
+### Returns: 2
 
 ### Indexing, Slicing, and Boolean Indexing NumPy Arrays
 
@@ -61,7 +61,7 @@ Arrays can be sliced using a colon, using either positive or negative indices (o
 
 An slice end will imply either the full left or right side of the array
 
-# Indexing and Slicing a 1-D NumPy Array
+### Indexing and Slicing a 1-D NumPy Array
 
 import numpy as np
 
