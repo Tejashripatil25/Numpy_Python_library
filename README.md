@@ -6,6 +6,11 @@ NumPy is short for "Numerical Python".
 NumPy provides a key object, the ndarray. The ndarray is an n-dimensional array of homogenous data. 
 It enables the creation of arrays of a single dimension, two dimensions (like a table or matrix), and multiple other dimensions.
 
+### Applications of Numpy:
+
+![image](https://github.com/Tejashripatil25/Numpy_Python_library/assets/124791646/4d831368-0ac0-4130-899e-ebd7cd8a2c17)
+
+
 ### Creating Python NumPy Arrays
 
 NumPy ndarray objects are n-dimensional arrays. On the surface, they appear to be quite similar to Python lists, but they work quite differently. Let’s work on creating our first array:
